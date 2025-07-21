@@ -31,6 +31,20 @@
       width: 100%;
       border-radius: 10px;
     }
+    .order-btn {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background-color: #d63447;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .order-btn:hover {
+      background-color: #a82636;
+    }
   </style>
 </head>
 <body>
@@ -38,17 +52,21 @@
     <h1>Sweet Bites</h1>
     <p>Delicious cakes made with love 🍰</p>
   </header>
+
   <section>
     <div class="cake">
-      <img src="images/IMG_6028.jpeg" alt="My cake" />
+      <img src="images/IMG_6028.jpeg" alt="Chocolate Cake" />
       <h2>Chocolate Cake</h2>
       <p>Price: EGP 200</p>
+      <a href="https://wa.me/01275549095?text=عايز أطلب Chocolate Cake" class="order-btn">اطلب الآن</a>
+    </div>
+
+    <div class="cake">
+      <img src="images/IMG_5964.jpeg" alt="Special Cake" />
+      <h2>Special Cake</h2>
+      <p>Price: EGP 180</p>
+      <a href="https://wa.me/01275549095?text=عايز أطلب Special Cake" class="order-btn">اطلب الآن</a>
     </div>
   </section>
 </body>
 </html>
-<div class="cake">
-  <img src="images/IMG_5964.jpeg" alt="My Cake" />
-  <h2>Special Cake</h2>
-  <p>Price: EGP 180</p>
-</div>
