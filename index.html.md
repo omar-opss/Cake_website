@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sweet Bites - Cake Shop</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fff8f0;
+      margin: 0;
+      text-align: center;
+    }
+    header {
+      background: #d63447;
+      color: white;
+      padding: 1em;
+    }
+    section {
+      padding: 2em;
+    }
+    .cake {
+      margin: 1em auto;
+      width: 300px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 1em;
+      border-radius: 10px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sweet Bites</h1>
+    <p>Delicious cakes made with love 🍰</p>
+  </header>
+  <section>
+    <div class="cake">
+      <img src="https://source.unsplash.com/400x300/?cake" alt="cake" />
+      <h2>Chocolate Cake</h2>
+      <p>Price: EGP 120</p>
+    </div>
+  </section>
+</body>
+</html>
